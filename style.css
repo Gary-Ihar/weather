@@ -8,7 +8,7 @@
 .board {
   margin: 0 auto;
   width: 300px;
-  background: rgb(111, 102, 236);
+  background: rgb(168, 199, 255);
   border-radius: 5px;
 }
 .today {
@@ -18,7 +18,7 @@
   align-items: center;
   color: white;
   height: 300px;
-  background: rgb(45, 196, 31);
+  background: rgb(149, 186, 255);
   font-weight: bold;
 }
 .city_info {
