@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   let weather = new XMLHttpRequest();
   let objWeather;
-
+  
   const API_KEY = "b5a730f4d4a4f9f3959dc0d1de50afa6";
   weather.open(
     "GET",
@@ -114,4 +114,8 @@ document.addEventListener("DOMContentLoaded", function() {
     pTemp.innerHTML = temperature + "℃";
     img.setAttribute("src", `http://openweathermap.org/img/wn/${icon}@2x.png`);
   }
+  let todayTime = document.querySelector(".today_time");
+  let time = new Date();
+  todayTime.innerHTML = `${time.getHours()}:${time.getMinutes()}`;
+  
 });
