@@ -1,0 +1,56 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.board {
+  margin: 0 auto;
+  width: 300px;
+  background: rgb(236, 236, 236);
+}
+.yesterday {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 300px;
+  background: rgb(45, 196, 31);
+  font-weight: bold;
+}
+.city_info {
+  width: 100%;
+  padding: 10px;
+  
+}
+.yesterday_time {
+  font-size: 12px;
+  }
+.wind {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.next_day div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 ;
+  margin: 0 10px;
+  border-bottom: 2px gray solid;
+}
+.next_day div:last-child {
+  border-bottom: none;
+}
+.next_day div p {
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(92, 92, 92);
+}
+.yesterday_temp {
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
